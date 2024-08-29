@@ -50,25 +50,31 @@ coil = {group = "io.coil-kt", name = "coil-compose", version.ref = "coil"}
 androidx-lifecycle-viewmodel-compse = {group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "view_model_compos"}
 androidx-navigation-compse = {group = "androidx.navigation", name = "navigation-compose", version.ref = "compose_navigation"}
 com-google-accompanist-flowlayout = {group = "com.google.accompanist", name = "accompanist-flowlayout", version.ref = "flowlayout_ver"}
-
+#Coroutines
 org-jetbrains-kotlinx-coroutine-core = {group = "org.jetbrains.kotlinx", name= "kotlinx-coroutines-core", version.ref= "coroutines_ver"}
 org-jetbrains-kotlinx-coroutine-android = {group = "org.jetbrains.kotlinx", name= "kotlinx-coroutines-android", version.ref= "coroutines_ver"}
 
-
+#ViewModel
 androidx-lifecyle-lifecyleViewmodel = {group = "androidx.lifecycle", name= "lifecycle-viewmodel-ktx", version.ref= "lifecycleRuntimeKtx"}
 androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
 
-
+#Hilt
 com-google-dagger-hilt-android = {group = "com.google.dagger", name= "hilt-android", version.ref= "hilt" }
 com-google-dagger-hilt-complier = {group = "com.google.dagger", name= "hilt-android-compiler", version.ref= "hilt"}
 androidx-hilt-complier = {group = "androidx.hilt", name= "hilt-compiler", version.ref= "androidx_hilt" }
 androidx-hilt-navigation-compose = {group = "androidx.hilt", name= "hilt-navigation-compose", version.ref= "androidx_hilt"}
 
-
+#retrofit2+Okttp3
 com-squareup-retrofit2 = {group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit2"}
 com-squareup-retrofit2-converter = {group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit2"}
 com-squareup-okhttp3 = {group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp3"}
 com-squareup-okhttp3-logging = {group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp3"}
+
+#Room
+androidx-room-runtime = {group = "androidx.room", name = "room-runtime", version = "2.6.1"} #Room runtime
+androidx-room-complier = {group = "androidx.room", name = "room-compiler", version = "2.6.1"} #Annotation processor for Room
+androidx-room-ext = {group = "androidx.room", name = "room-ktx", version = "2.6.1"} #Kotlin extensions for Room
+
 
 com-apiclient = {group = "com.coinpaprika", name = "apiclient", version.ref = "apiclient_version" }
 

@@ -1,11 +1,13 @@
 package com.dotech.quotes.data.models
 
 import android.os.Parcelable
+import androidx.room.Entity
 import com.dotech.quotes.domain.models.ListQuotes
 import com.google.gson.annotations.SerializedName
 import kotlinx.parcelize.Parcelize
 
 @Parcelize
+@Entity(tableName = "list_table")
 data class ListQuotesDto(
     @SerializedName("count") val count: Int= 0,
     @SerializedName("lastItemIndex") val lastItemIndex: Int= 0,

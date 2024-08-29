@@ -109,5 +109,10 @@ dependencies {
     implementation(libs.com.squareup.okhttp3)
     implementation(libs.com.squareup.okhttp3.logging)
 
+    //Room
+    implementation(libs.androidx.room.runtime)
+    ksp(libs.androidx.room.complier)
+    implementation(libs.androidx.room.ext)
+
 
 }
