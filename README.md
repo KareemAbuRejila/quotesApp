@@ -1,6 +1,6 @@
 # 💭 Quotes 💭
 
-<img src="https://github.com/Dinesh2510/Quotes-App-using-Jetpack-Compose/blob/master/thumbnail.png?raw=true" width="750">
+<img src="https://github.com/KareemAbuRejila/quotesApp/blob/main/thumbnail.png?raw=true" width="750">
 
 
 A Quotes Application built to Demonstrate the use of Jetpack Compose for building declarative UI in
